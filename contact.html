@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info</title>
+</head>
+<body>
+    <header>
+        <h3>Contact Info</h3>
+    </header>
+    <p>Email : mohanraj@gmail.com</p>
+    <form action="mailto:mohanrraj@gmail.com method = "post" enctype="text/plain"><!-- action="successful.html" method="get" ||| action="mailto:info@mohanrraj@gmail.com method = "post" -->
+        <table>
+            <tr>
+                <td><label>Name:</label></td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td><label>DOB:</label></td>
+                <td><input type="date" name="dob"></td>
+            </tr>
+            <tr>
+                <td><label>Mobile Number:</label></td>
+                <td><input type="tel" name="mobile number"></td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label>Website:</label></td>
+                <td><input type="url" name="personal website"></td>
+            </tr>
+            <tr>
+                <td><label>Fav color:</label></td>
+                <td><input type="color" name="favourite color"></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td><label>Description:</label></td>
+                <td><textarea name="aboutme" rows="10" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td><label>Resume:</label></td>
+                <td><input type="file" name="resume"></td>
+            </tr>
+            <tr>
+                <td><label>Earning Range:</label></td>
+                <td><input type="range" min="20000" max="1000000"> </td>
+            </tr>
+        </table>        
+        <br>
+        <input type="checkbox" name="agree">
+        <label>I agree the terms and condition.</label>
+        <br>
+        <input type="submit">
+    </form>
+    <br>
+    <a href="index.html">Home</a>
+</body>
+</html>
